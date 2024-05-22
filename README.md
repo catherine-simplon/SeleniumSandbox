@@ -17,7 +17,7 @@ e. Créer un dossier `tests` et dans ce dossier.
 f. Mettre ce projet sur GitHub et faire un `commit` et `push` au minimum pour chaque exercice (avec le nom de l'exercice dans le message de commit).
 
 
-**Squelette de fonction de test : **
+__Squelette de fonction de test :__
 
 ```
 const {By, Key, Builder, WebElementCondition, until} = require("selenium-webdriver");
@@ -58,7 +58,7 @@ a. Ouvrir le site de Google
 b. Écrire l'instruction permettant de taper une requête de votre choix dans Google et de lancer la recherche en tapant sur la touche "Entrée"
 c. Lancer le test avec la commande `mocha test_google.js` ou `npx mocha test_google.js` (en étant dans le dossier `tests`).
 
-* Hint: [Doc de Selenium](https://www.selenium.dev/documentation/webdriver/getting_started/first_script/) * 
+_Hint: [Doc de Selenium](https://www.selenium.dev/documentation/webdriver/getting_started/first_script/)_
 
 
 ### Exercice 2 : 
@@ -75,7 +75,7 @@ e. Inscrire un login et un mot de passe (erronés) dans les champs correspondant
 f. Vérifier la présence d'un message d'erreur sur la page. Si le message s'affiche, le test est réussi, utiliser `assert` pour tester cela.  
 g. Lancer le test
 
-* Hint: [Page suivante dans la doc de Selenium](https://www.selenium.dev/documentation/webdriver/getting_started/using_selenium/) * 
+_Hint: [Page suivante dans la doc de Selenium](https://www.selenium.dev/documentation/webdriver/getting_started/using_selenium/)_
 
 
 ### Exercice 3 : 
@@ -92,7 +92,7 @@ Créer un nouveau fichier, nommé `test_airbnb.js`.
 Sans être guidé dans le détail des étapes, réaliser une recherche logement sur AirBnb en remplissant une destination, des dates, et un nombre de voyageurs. Varier les thématiques pour obtenir des résultats différents. 
 
 
-* Hint: [GitHub de Selenium](https://github.com/SeleniumHQ/seleniumhq.github.io/tree/trunk/examples/javascript/test) *
+_Hint: [GitHub de Selenium](https://github.com/SeleniumHQ/seleniumhq.github.io/tree/trunk/examples/javascript/test)_
 
 
 ### Exercice 5 : 
