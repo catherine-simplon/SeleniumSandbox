@@ -113,6 +113,9 @@ Ceci est un test de bout-en-bout (end-to-end) :)
 
 - Mocha : https://mochajs.org/
 - Selenium : https://www.selenium.dev/documentation/
+- GitHub de Selenium : https://github.com/SeleniumHQ/seleniumhq.github.io/tree/trunk/examples
+
+_Pour aller plus loin :_
 - Cypress vs Selenium : https://ittestgroup.com/conseils-actualites/cypress-vs-selenium-differences-et-similarites-2023/
 - Cypress vs Selenium : https://geekflare.com/fr/cypress-vs-selenium/
 - Tuto sur Cypress : https://grafikart.fr/tutoriels/cypress-993
