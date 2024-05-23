@@ -108,8 +108,11 @@ _Hint: [GitHub de Selenium](https://github.com/SeleniumHQ/seleniumhq.github.io/t
 Créer un nouveau fichier, nommé `test_simplonline.js`. 
 
 a. Aller sur le site de Simplonline
+
 b. Tester des login et mdp erronés. Le test est réussi si l'utilisateur n'arrive pas à se connecter. 
+
 c. Créer une nouvelle fonction ou modifier la fonction existante pour se connecter avec succès sur Simplonline avec votre compte. Attention à mettre vos identifiant et mdp dans un fichier ignoré par GitHub. 
+
 d. Aller sur le brief de test pour poster le rendu avec le lien GitHub de vos tests ! 
 
 Ceci est un test de bout-en-bout (end-to-end) :)
