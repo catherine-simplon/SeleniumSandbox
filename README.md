@@ -55,7 +55,9 @@ Dans le dossier `tests`, créer un fichier `test_google.js`.
 Créer une fonction `test_google()` à partir du squelette de fonction de test, puis suivre les étapes : 
 
 a. Ouvrir le site de Google
+
 b. Écrire l'instruction permettant de taper une requête de votre choix dans Google et de lancer la recherche en tapant sur la touche "Entrée"
+
 c. Lancer le test avec la commande `mocha test_google.js` ou `npx mocha test_google.js` (en étant dans le dossier `tests`).
 
 _Hint: [Doc de Selenium](https://www.selenium.dev/documentation/webdriver/getting_started/first_script/)_
@@ -68,11 +70,17 @@ Créer un nouveau fichier, nommé `test_github.js`. Le but sera de tester le log
 En vous inspirant du code vu précédemment, créer une fonction et suivez les étapes : 
 
 a. Ouvrir le site de GitHub
+
 b. Cliquer sur l'élément qui permet de se connecter
+
 c. Afficher le titre de cette nouvelle page dans la console
+
 d. En utilisant `assert`, vérifier que le titre obtenu est bien le titre attendu.
+
 e. Inscrire un login et un mot de passe (erronés) dans les champs correspondants (en utilisant des sélecteurs CSS), et cliquer ou taper sur Entrée.
+
 f. Vérifier la présence d'un message d'erreur sur la page. Si le message s'affiche, le test est réussi, utiliser `assert` pour tester cela.  
+
 g. Lancer le test
 
 _Hint: [Page suivante dans la doc de Selenium](https://www.selenium.dev/documentation/webdriver/getting_started/using_selenium/)_
