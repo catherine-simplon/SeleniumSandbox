@@ -10,7 +10,7 @@ b. Dans le terminal, initialiser le projet avec `npn init -y` (initialisation pa
 c. Installer Selenium : 
 `npm install --save selenium-webdriver chromedriver geckodriver`
 
-d. Dans le fichier `package.json`, au niveau des dépendances, ajouter : `"mocha": "10.4.0"`, relancer `npm install` si besoin.
+d. Dans le fichier `package.json`, au niveau des dépendances, ajouter : `"mocha": "10.4.0"`, relancer `npm install` si besoin. Et ignorer `node_modules` dans un `.gitignore`.
  
 e. Créer un dossier `tests` et dans ce dossier.
 
