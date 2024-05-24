@@ -12,7 +12,7 @@ c. Installer Selenium :
 
 d. Dans le fichier `package.json`, au niveau des dépendances, ajouter : `"mocha": "10.4.0"`, relancer `npm install` si besoin. Et ignorer `node_modules` dans un `.gitignore`.
  
-e. Créer un dossier `tests` et dans ce dossier.
+e. Créer un dossier `tests` et dans le dossier du projet.
 
 f. Mettre ce projet sur GitHub et faire un `commit` et `push` au minimum pour chaque exercice (avec le nom de l'exercice dans le message de commit).
 
