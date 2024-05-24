@@ -46,6 +46,27 @@ const assert = require("assert");
 
 ```
 
+__Squelette alternatif de fonction de test :__
+
+```
+const {By, Key, Builder} = require("selenium-webdriver");
+require("chromedriver");
+
+async function test_case(){
+    let driver = await new Builder().forBrowser("chrome").build();
+
+    // code here
+
+    setInterval(function(){
+        driver.quit();
+    }, 10000);
+}
+
+test_case();
+
+```
+Et pour lancer le test avec `node nomdufichier.js`
+
 
 ## Exercices
 
