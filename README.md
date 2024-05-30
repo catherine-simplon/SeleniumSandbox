@@ -1,4 +1,4 @@
-# SeleniumSandbox
+# Selenium Sandbox
 
 
 ## Installation et démarrage
